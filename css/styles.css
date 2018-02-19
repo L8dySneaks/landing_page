@@ -1,0 +1,80 @@
+.navbar {
+  background-color: #5A7E94;
+  border-radius: 0;
+  height: 225px;
+  margin-bottom: 0;
+  max-width: 100%;
+}
+
+.navbar-header {
+  margin: 10px 0;
+}
+
+.navbar-brand img {
+  height: 50px;
+  width: 210px;
+}
+
+.hd-user-icon img {
+  height: 50px;
+}
+
+.hd-user-name {
+  color: #fff;
+  margin-left: 5px;
+}
+
+.progress {
+  border-radius: 0;
+  margin-bottom: 0px;
+  margin-top: 35px;
+}
+
+.progress-text {
+  color: #fff;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#hd-carousel {
+  margin-bottom: 50px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  margin: auto;
+  min-height: 300px;
+}
+
+.carousel-caption {
+  top: 50px;
+}
+
+.hd-thumbnails section {
+  margin-bottom: 30px;
+}
+
+.hd-thumbnail-link:focus {
+  outline: 0;
+}
+
+.thumbnail-btn  {
+  background-color: #F08200;
+  border-radius: 0;
+}
+
+.footer {
+  background-color: #ccc;
+  color: #fff;
+  margin-top: 20px;
+  padding: 25px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .navbar { height: 100px; }
+
+  .hd-user-icon {
+    margin-top: 25px;
+  }
+}
